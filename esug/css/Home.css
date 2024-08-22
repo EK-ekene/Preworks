@@ -1,0 +1,399 @@
+body{
+    margin: 0em;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #2c3e50;
+    width: 100%;
+    height: 3.5em;
+    position: fixed;
+    z-index: 5;
+    border-bottom: 1px solid white;
+}
+
+nav{
+    background-color: inherit;
+    width: 100%;
+    height: 3.5em;
+    display: flex;
+    margin: 0em 3%;
+    
+}
+
+nav img{
+    height: 40px;
+    width: 8%;
+    padding: 5px 0px;
+}
+.first{
+    width: 50%;
+    display: inline;
+}
+.second{
+    font-family: "Roboto";
+    width: 50%;
+    display: flex;
+}
+
+.second div{
+    margin-top: 20.73px;
+    width: 30%;
+    color: white;
+
+}
+
+header span{
+    color: white;
+    font-size: 35px;
+}
+
+.threee{
+    margin-top: 0.5em;
+    display: none;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.second div a:hover{
+    color: gold;
+    text-decoration: underline;
+}
+
+#terms{
+    visibility: hidden;
+    height: auto;
+    background-color: #fff;
+
+    border: solid 1px rgba(0,0,0,0.04);
+    box-shadow: 0 8px 16px 0 rgba(3,49,86,0.08);
+    border-radius: 6px;
+}
+
+#terms h3{
+    font-size: 15px;
+    margin: 0;
+    color: black;
+    padding: 5px 0px 5px 5px;
+    line-height: 1.5em;
+    cursor: pointer;
+    
+}
+
+#terms a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+#terms h3:hover{
+    color: #010233;
+    text-decoration: underline;
+ 
+}
+
+.three div{
+    width: 100%;
+    color: black;
+    font-size: 17px;
+    background-color: #fff;
+    margin-left: -9px;
+    margin-top: -0.01px;
+border-radius: 15px;
+}
+
+h5:nth-child(1){
+    padding-top: 17px;
+    border-bottom-color: black;
+}
+h5{
+    width: 100%;
+    padding: 4px 4px;
+}
+.threee div{
+    display: none;
+}
+
+#aside{
+    display: none;
+    position: fixed;
+    top: 3.5em;
+   height: 100%;
+    width: 100%;
+    background-color: rgba(56, 51, 51, 0.664);
+}
+
+#bar{
+    position: absolute;
+    right: 0;
+    padding: 0;
+    height: 100%;
+    width: 65%;
+    background-color: #2c3e50;
+    margin: 0;
+  overflow-y: auto;
+  transition: width 0.9s ease-out;
+}
+
+#sidebar{
+    max-height: 550px;
+    padding: 0;
+    padding-left: 15px;
+    margin-right: 0;
+   
+}
+
+
+#med{
+    display: none;
+    padding: 0;
+    height: auto;
+}
+
+#bar a{
+    padding: 7px;
+    line-height: 1.7em;
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(252, 251, 251);
+    font-family: 'Lunasima';
+}
+
+header h4 {
+    margin: -36px 0px 0px 20%;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-family: "Lunasima";
+    font-weight: 400;
+    color: rgb(247, 243, 243);
+}
+header h4 a{
+    text-decoration: none;
+    color: inherit;
+}
+
+main{
+    width: 100%;
+    height: 33em;
+    color: white;
+}
+
+main div {
+    height: 3.5em;
+    padding-top: 4em;
+    margin: 0em 4%;
+}
+
+main h1{
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 75px;
+    margin-bottom: 0;
+    margin-top: -0.01em;
+    text-decoration: underline;
+    color: white;
+}
+
+main h3{
+    margin: 0;
+    margin-top: 0.7em;
+    font-family: "Poppins";
+    font-weight: 300;
+}
+
+main ul{
+    text-decoration: none;
+    margin: 0.5em 0;
+    padding: 0em 1em;
+}
+
+main ul li{
+    text-decoration: none;
+    word-spacing: 4px;
+    font-family: "Lunasima";
+    font-size: 16px;
+    color: white;
+}
+
+main ul li i{
+    margin-left: 0em;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+main ol{
+    text-decoration: none;
+    display: inline;
+    padding:0;
+}
+
+main ol li {
+    display: inline;
+}
+
+main ol li i{
+    margin-left: 0;
+    margin-top: 4.9em;
+    font-size: x-large;
+    margin-right: 2%;
+    margin-bottom: 0;
+}
+
+.about{
+    margin: 0em 4%;
+}
+
+h2{
+    font-size: 25px;
+    text-decoration: underline;
+    color: rgb(42, 45, 88);
+    font-family: "Lunasima";
+}
+
+.about p{
+    font-size: 17px;
+    font-family: "Poppins";
+    margin-bottom: 4em;
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+}
+
+.about p a{
+    color: red;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2%;
+    margin-bottom: 7em;
+    height: auto;
+
+}
+.grid a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.grid a:hover{
+    text-decoration: underline;
+}
+.grid div{
+    margin-top: 1em;
+    border-radius: 15px;
+    width: 100%;
+    height: 21em;
+    border: 1px solid rgb(197, 190, 190);
+    box-shadow: 10px solid red blue green;
+}
+
+.grid div img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    height: 12em;
+}
+
+.grid div h3{
+    font-size: 23px;
+    margin-top: 7px;
+    padding-left: 13px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.grid divh3:hover{
+    cursor: default;
+}
+
+.grid div p{
+    margin: 0em;
+    padding-left: 13px;
+    padding-right: 2px;
+    font-weight: 300;
+    color: rgb(68, 67, 67);
+}
+
+.grid div p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    width: 100%;
+    height: auto;
+    margin-top: 5em;
+}
+
+footer section{
+    margin: 0em 4%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+footer h5{
+    margin-bottom: 0;
+    margin-top: 0.5px;
+    color: white;
+    font-family: "Roboto";
+}
+
+
+
+
+@media screen and (min-width:700px) and (max-width:900px) {
+  .grid{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+
+@media screen and (min-width:171px) and (max-width:659px){
+    .grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    nav .second{
+        display: none;
+    }
+    nav .first{
+        width: 90%;
+    }
+
+    main div p{
+        width: 95%;
+    }
+    .about{
+        margin-bottom: 15em;
+    }
+
+    .threee{
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width:410px) {
+    main div p{
+        line-height: 25px;
+        font-size: 18px;
+        margin-top: 0.5em;
+    }
+
+    main div h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:331px){
+   header a{
+    letter-spacing: 0px;
+    font-size: 16px;
+   }
+
+}
